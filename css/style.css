@@ -1,0 +1,134 @@
+body {
+  background: #eee; 
+}
+
+.button{
+  background-color: red;
+  color: white;
+  border: 0px;
+  width: 70px;
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.mainDiv{
+  display: flex;
+  width: 200px; 
+  height: 200px; 
+  position: relative;
+}
+
+form{
+  width: auto; 
+  height: auto; 
+  margin: auto auto 5px auto;
+}
+
+.like{
+  width: 30px;
+  height: 30px;
+  position: absolute; 
+}
+
+.likeI{  
+  animation: heartI 500ms ease-in 1 normal;   
+}
+
+.likeII{  
+  animation: heartII 500ms ease-in 1 normal;   
+}
+
+.likeIII{  
+  animation: heartIII 500ms ease-in 1 normal;   
+}
+
+.likeIV{  
+  animation: heartIV 500ms ease-in 1 normal;   
+}
+
+@keyframes heartI { 
+  0% {     
+    transform: translate(100px, 170px);
+    opacity:  1; 
+  } 
+  25% {     
+    transform: translate(50px, 128px);    
+  } 
+  50% {     
+    transform: translate(100px, 86px);    
+  } 
+  75% {     
+    transform: translate(150px, 43px);     
+  } 
+  100% {     
+    transform: translate(100px, 0px); 
+    opacity:  0;
+  } 
+}
+
+@keyframes heartII { 
+  0% {     
+    transform: translate(100px, 170px);
+    opacity:  1; 
+  } 
+  25% {     
+    transform: translate(100px, 128px);    
+  } 
+  50% {     
+    transform: translate(150px, 86px);    
+  } 
+  75% {     
+    transform: translate(50px, 43px);     
+  } 
+  100% {       
+    transform: translate(100px, 0px); 
+    opacity:  0;
+  } 
+}
+
+@keyframes heartIII { 
+  0% {     
+    transform: translate(100px, 170px);
+    opacity:  1; 
+  } 
+  25% {     
+    transform: translate(100px, 128px);    
+  } 
+  50% {     
+    transform: translate(50px, 86px);    
+  } 
+  75% { 
+    
+    transform: translate(150px, 43px);
+     
+  } 
+  100% {     
+    transform: translate(100px, 0px); 
+    opacity:  0;
+  } 
+}
+
+@keyframes heartIV { 
+  0% {     
+    transform: translate(100px, 170px);
+    opacity:  1; 
+  } 
+  25% {     
+    transform: translate(150px, 128px);    
+  } 
+  50% {     
+    transform: translate(100px, 86px);
+    
+  } 
+  75% { 
+    
+    transform: translate(50px, 43px);     
+  } 
+  100% {     
+    transform: translate(100px, 0px); 
+    opacity:  0;
+  } 
+}
+
